@@ -1,4 +1,4 @@
-# Alex Chen — Developer Portfolio
+# Anshuman Sarkar — Developer Portfolio
 
 A modern, futuristic developer portfolio built with **React + Vite + Tailwind CSS + Framer Motion**.
 
