@@ -5,9 +5,9 @@ import { personalInfo } from '../data/portfolioData'
 import AnimatedSection from '../components/AnimatedSection'
 
 const socials = [
-  { icon: Github, label: 'GitHub', value: '@alexchen', url: 'https://github.com/alexchen' },
-  { icon: Linkedin, label: 'LinkedIn', value: 'linkedin.com/in/alexchen', url: 'https://linkedin.com/in/alexchen' },
-  { icon: Twitter, label: 'Twitter', value: '@alexchen', url: 'https://twitter.com/alexchen' },
+  { icon: Github, label: 'GitHub', value: '@Anshuman0782', url: 'https://github.com/Anshuman0782' },
+  { icon: Linkedin, label: 'LinkedIn', value: 'linkedin.com/in/anshuman-sarkar-906994307', url: 'https://www.linkedin.com/in/anshuman-sarkar-906994307/' },
+  { icon: Twitter, label: 'Twitter', value: '@sarkar97711', url: 'https://x.com/sarkar97711' },
   { icon: Mail, label: 'Email', value: personalInfo.email, url: `mailto:${personalInfo.email}` },
 ]
 

@@ -10,14 +10,14 @@ export const personal = {
   bio: "I'm a full-stack developer with 5+ years of experience crafting web applications that sit at the intersection of design and engineering. I love turning complex problems into elegant solutions.",
   location: "Kolkata, West Bengal, India",
   email: "anshumansarkar700@gmail.com",
-  resumeUrl: "/resume-alex-chen.pdf", // Place your resume in /public folder
+  resumeUrl: "/resume.pdf", // Place your resume in /public folder
   avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
 
   // Social links — set to null to hide
   socials: {
-    github: "https://github.com/alexchen",
-    linkedin: "https://linkedin.com/in/alexchen",
-    twitter: "https://twitter.com/alexchen",
+    github: "#",
+    linkedin: "#",
+    twitter: "#",
     dribbble: null,
   },
 }

@@ -205,7 +205,7 @@ export default function Home() {
         <AnimatedSection>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {[
-              { value: '5+', label: 'Years Experience' },
+              { value: '5+', label: 'Years Coding Experience' },
               { value: '20+', label: 'Projects Shipped' },
               { value: '3', label: 'FAANG Companies' },
               { value: '500+', label: 'GitHub Stars' },

@@ -17,7 +17,6 @@ export const socialLinks = [
   { label: "GitHub", url: "https://github.com/Anshuman0782", icon: "github" },
   { label: "LinkedIn", url: "https://www.linkedin.com/in/anshuman-sarkar-906994307/", icon: "linkedin" },
   { label: "Twitter", url: "https://x.com/sarkar97711", icon: "twitter" },
-  { label: "Dev.to", url: "https://dev.to/alexchen", icon: "dev" },
 ]
 
 export const skills = [
