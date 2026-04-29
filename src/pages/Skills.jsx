@@ -28,7 +28,7 @@ function SkillBar({ name, level, delay = 0 }) {
 
 const toolIcons = [
   { name: 'VS Code', emoji: '⚡' },
-  { name: 'Postman', emoji: '🎨' },
+  { name: 'Postma', emoji: '🎨' },
   { name: 'Neovim', emoji: '🟢' },
   { name: 'iTerm2', emoji: '🖥' },
   { name: 'Raycast', emoji: '🚀' },
