@@ -178,7 +178,7 @@ export default function Home() {
   name: "${personalInfo.name}",
   role: "${personalInfo.roles}",
   skills: ["React", "AI", "Full Stack"],
-  passion: "Building scalable apps 🚀"
+  passion: "Building scalable Products 🚀"
 };`}
         </pre>
 
@@ -206,7 +206,7 @@ export default function Home() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {[
               { value: '5+', label: 'Years Experience' },
-              { value: '40+', label: 'Projects Shipped' },
+              { value: '20+', label: 'Projects Shipped' },
               { value: '3', label: 'FAANG Companies' },
               { value: '500+', label: 'GitHub Stars' },
             ].map(stat => (

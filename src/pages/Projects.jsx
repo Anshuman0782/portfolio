@@ -9,7 +9,9 @@ const allTags = ['All', ...new Set(projects.flatMap(p => p.tags))]
 export default function Projects() {
   const [filter, setFilter] = useState('All')
 
-  const filtered = filter === 'All' ? projects : projects.filter(p => p.tags.includes(filter))
+ const filtered = filter === 'All'
+  ? projects
+  : projects.filter(p => p.category === filter)
 
   return (
     <div className="min-h-screen pt-24 pb-20">
@@ -30,7 +32,7 @@ export default function Projects() {
         {/* Filter chips */}
         <AnimatedSection className="mb-12">
           <div className="flex flex-wrap gap-2">
-            {['All', 'React', 'Next.js', 'Node.js', 'TypeScript', 'Python', 'Open Source'].map(tag => (
+            {['All', 'Frontend', 'Full Stack', 'AI/ML', 'Quantum'].map(tag => (
               <button
                 key={tag}
                 onClick={() => setFilter(tag)}
