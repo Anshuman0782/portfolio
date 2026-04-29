@@ -5,7 +5,7 @@ export const personalInfo = {
     ' AI & ML Engineer',
   ],
   tagline: "I build fast, beautiful, and scalable web experiences.",
-  bio: "I'm a full-stack developer with 5+ years of experience crafting high-performance applications. I specialize in React ecosystems and Node.js backends, with a passion for clean architecture and delightful UX. Currently open to full-time roles and interesting freelance projects.",
+  bio: "I'm a full-stack developer with 5+ years of Coding experience crafting high-performance applications. I specialize in React ecosystems and Node.js backends, with a passion for clean architecture and delightful UX. Currently open to full-time roles and interesting freelance projects.",
   location: "Kolkata, West Bengal, India",
   email: "anshumansarkar700@gmail.com",
   resumeUrl: "/resume.pdf", // Place your resume in /public folder
@@ -14,43 +14,61 @@ export const personalInfo = {
 }
 
 export const socialLinks = [
-  { label: "GitHub", url: "https://github.com/alexchen", icon: "github" },
-  { label: "LinkedIn", url: "https://linkedin.com/in/alexchen", icon: "linkedin" },
-  { label: "Twitter", url: "https://twitter.com/alexchen", icon: "twitter" },
+  { label: "GitHub", url: "https://github.com/Anshuman0782", icon: "github" },
+  { label: "LinkedIn", url: "https://www.linkedin.com/in/anshuman-sarkar-906994307/", icon: "linkedin" },
+  { label: "Twitter", url: "https://x.com/sarkar97711", icon: "twitter" },
   { label: "Dev.to", url: "https://dev.to/alexchen", icon: "dev" },
 ]
 
 export const skills = [
   {
-    category: "Frontend",
-    items: [
-      { name: "React / Next.js", level: 95 },
-      { name: "TypeScript", level: 90 },
-      { name: "Tailwind CSS", level: 92 },
-      { name: "Framer Motion", level: 80 },
-      { name: "Three.js / WebGL", level: 65 },
-    ]
-  },
+  category: "Programming Languages",
+  items: [
+    { name: "C", level: 85 },
+    { name: "C++", level: 88 },
+    { name: "Java", level: 82 },
+    { name: "Python", level: 85 },
+    { name: "PHP", level: 75 },
+    { name: "SQL", level: 80 },
+    { name: "JavaScript", level: 90 }
+  ]
+},
   {
-    category: "Backend",
-    items: [
-      { name: "Node.js / Express", level: 88 },
-      { name: "Python / FastAPI", level: 75 },
-      { name: "PostgreSQL", level: 82 },
-      { name: "Redis", level: 70 },
-      { name: "GraphQL", level: 78 },
-    ]
-  },
-  {
-    category: "DevOps & Tools",
-    items: [
-      { name: "Docker / Kubernetes", level: 72 },
-      { name: "AWS / GCP", level: 75 },
-      { name: "CI/CD (GitHub Actions)", level: 85 },
-      { name: "Git / GitHub", level: 95 },
-      { name: "Linux / Shell", level: 80 },
-    ]
-  }
+  category: "Web Technologies & Cloud",
+  items: [
+    { name: "React", level: 95 },
+    { name: "Node.js / Express", level: 88 },
+    { name: "MongoDB", level: 85 },
+    { name: "REST API", level: 85 },
+    { name: "Socket.IO", level: 80 },
+    { name: "AWS", level: 75 },
+    { name: "Render", level: 78 },
+  ]
+},
+{
+  category: "AI & ML (Generative AI)",
+  items: [
+    { name: "Machine Learning", level: 80 },
+    { name: "Deep Learning ", level: 78 },
+    { name: "MLOps", level: 80 },
+    { name: "LLM Integration ", level: 88 },
+    { name: "Prompt Engineering", level: 90 },
+    { name: "Fine-Tuning", level: 70 },
+    { name: "Vector Databases & Embeddings", level: 70 }
+  ]
+},
+{
+  category: "Tools",
+  items: [
+    { name: "Git / GitHub", level: 95 },
+    { name: "Docker", level: 75 },
+    { name: "Postman", level: 90 },
+    { name: "VS Code", level: 95 },
+    { name: "MongoDB Compass", level: 85 },
+    { name: "Firebase", level: 80 },
+    { name: "Linux / Shell", level: 80 }
+  ]
+}
 ]
 
 export const techStack = [

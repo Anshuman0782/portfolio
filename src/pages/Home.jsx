@@ -138,12 +138,12 @@ export default function Home() {
       {/* MINI STATS */}
       <motion.div variants={item} className="flex gap-8 text-sm text-[var(--text-muted)]">
         <div>
-          <p className="text-xl font-bold text-white">15+</p>
+          <p className="text-xl font-bold text-white">20+</p>
           <p>Projects</p>
         </div>
         <div>
           <p className="text-xl font-bold text-white">5+</p>
-          <p>Years Exp</p>
+          <p>Years Coding Exp</p>
         </div>
         <div>
           <p className="text-xl font-bold text-white">100%</p>
