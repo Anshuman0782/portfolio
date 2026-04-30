@@ -73,7 +73,7 @@ export default function Contact() {
                 <span className="text-accent text-sm font-mono">Available Now</span>
               </div>
               <p className="text-sm text-[var(--text-muted)] leading-relaxed">
-                Currently open to full-time senior engineering roles and select freelance projects.
+                Currently open to full-time Full Stack Developer and Ai Engineer roles and select freelance projects.
                 Typical response time: 24-48 hours.
               </p>
             </div>

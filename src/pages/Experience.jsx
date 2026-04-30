@@ -67,10 +67,10 @@ export default function Experience() {
           <Briefcase size={32} className="text-accent mx-auto mb-4" />
           <h3 className="font-display text-3xl text-[var(--text)] mb-2">Open to New Opportunities</h3>
           <p className="text-[var(--text-muted)] mb-6 max-w-md mx-auto text-sm">
-            I'm currently looking for senior full-stack roles. If you're building something interesting, let's talk.
+            I'm currently looking for full-stack roles and AI Engineer roles. If you're building something interesting, let's talk.
           </p>
           <div className="flex flex-wrap gap-3 justify-center">
-            <a href={`mailto:alex@alexchen.dev`} className="btn-primary">
+            <a href={`mailto:anshumansarkar700@gmail.com`} className="btn-primary">
               Get In Touch
             </a>
             <a href="/resume.pdf" download className="btn-ghost">
