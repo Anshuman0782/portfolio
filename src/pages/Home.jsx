@@ -142,7 +142,7 @@ export default function Home() {
           <p>Projects</p>
         </div>
         <div>
-          <p className="text-xl font-bold text-white">5+</p>
+          <p className="text-xl font-bold text-white">4+</p>
           <p>Years Coding Exp</p>
         </div>
         <div>
@@ -205,10 +205,10 @@ export default function Home() {
         <AnimatedSection>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {[
-              { value: '5+', label: 'Years Coding Experience' },
+              { value: '4+', label: 'Years Coding Experience' },
               { value: '20+', label: 'Projects Shipped' },
-              { value: '3', label: 'FAANG Companies' },
-              { value: '500+', label: 'GitHub Stars' },
+              { value: '15+', label: 'API Integrations' },
+              { value: '10+', label: 'Technologies Explored' },
             ].map(stat => (
               <div key={stat.label} className="card-glass p-6 rounded-xl text-center">
                 <div className="font-display text-4xl text-gradient mb-2">{stat.value}</div>
