@@ -77,7 +77,22 @@ export const techStack = [
 
 export const projects = [
   {
-    id: 1,
+  id: 1,
+  title: "RepoMind AI",
+  description:
+    "An Agentic AI platform that automates GitHub repository workflows like auto commits, bug detection, architecture analysis, code explanation, and intelligent development assistance for faster and smarter project management.",
+  tags: ["Langchain", "LangGraph", "LLMs", "RAG", "Vector DB"],
+  githubUrl: "https://github.com/Anshuman0782/RepoMind-AI",
+  featured: false,
+  category: "AI/ML",
+  gradient: "from-amber-500/20 to-yellow-500/20",
+  accent: "#F59E0B",
+  year: "2026",
+},
+  {
+
+    
+    id: 2,
 title: "Aalap — Real-Time Chat & Gaming Platform",
 description: "A real-time chat application with support for multiple interactive games and an admin dashboard. Features live messaging, game integration, user management, and real-time updates. Designed to handle scalable user interactions.",
 tags: ["React", "Node.js", "Socket.IO", "MongoDB", "Express"],
@@ -90,7 +105,7 @@ tags: ["React", "Node.js", "Socket.IO", "MongoDB", "Express"],
     year: "2025",
   },
   {
-    id: 2,
+    id: 3,
     title: "Code2Music — Universal Compiler & Code-to-Music Converter",
     description: "A universal compiler that converts code into music with an integrated code generator and cross-platform support.",
     tags: ["React", "Node.js", "Express", "API"],
@@ -103,7 +118,7 @@ tags: ["React", "Node.js", "Socket.IO", "MongoDB", "Express"],
     year: "2025",
   },
   {
-    id: 3,
+    id: 4,
 title: "AutoPark IQ — AI-Powered Automatic Car Parking System",
 description: "An AI-based system using computer vision to detect parking spaces and assist automated parking.",
 tags: ["React", "Node.js", "Express", "MongoDB", "Python", "OpenCV", "CNN"],
@@ -115,7 +130,7 @@ tags: ["React", "Node.js", "Express", "MongoDB", "Python", "OpenCV", "CNN"],
     year: "2024",
   },
   {
-    id: 4,
+    id: 5,
 title: "Quantum Cryptanalysis Lab — RSA Attack Simulation",
 description: "A simulator demonstrating RSA cryptanalysis using quantum algorithms like Shor’s algorithm.",
 tags: ["React", "Node.js", "Express", "Python", "Qiskit", "API", "WebSockets"],
@@ -128,7 +143,7 @@ tags: ["React", "Node.js", "Express", "Python", "Qiskit", "API", "WebSockets"],
     year: "2026",
   },
   {
-    id: 5,
+    id: 6,
   title: "Secure File Locker — Password-Based Encryption Tool",
 description: "A browser-based tool to securely lock and unlock files using password-based encryption.",
 tags: ["HTML", "CSS", "JavaScript", "Web Crypto API"],
@@ -140,19 +155,7 @@ tags: ["HTML", "CSS", "JavaScript", "Web Crypto API"],
     accent: "#F43F5E",
     year: "2023",
   },
-  {
-    id: 6,
-    title: "Terrain — 3D Map Builder",
-    description: "Browser-based 3D terrain editor using WebGL. Import GeoTIFF elevation data, apply textures, and export as glTF. Used by indie game developers and geographers.",
-    tags: ["Three.js", "WebGL", "TypeScript", "WASM"],
-    liveUrl: "https://terrain-builder.vercel.app",
-    githubUrl: "https://github.com/alexchen/terrain",
-    featured: false,
-    category: "Frontend",
-    gradient: "from-amber-500/20 to-yellow-500/20",
-    accent: "#F59E0B",
-    year: "2022",
-  },
+  
 ]
 
 export const experience = [
