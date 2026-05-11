@@ -56,8 +56,8 @@ export default function About() {
               {/* Quick info cards */}
               <div className="mt-6 grid grid-cols-2 gap-3">
                 <div className="card-glass p-4 rounded-xl">
-                  <div className="text-2xl font-display text-gradient">5+</div>
-                  <div className="text-xs text-[var(--text-muted)] mt-1">Years coding</div>
+                  <div className="text-2xl font-display text-gradient">4+</div>
+                  <div className="text-xs text-[var(--text-muted)] mt-1">Years coding Exp</div>
                 </div>
                 <div className="card-glass p-4 rounded-xl">
                   <div className="text-2xl font-display text-gradient">15+</div>
