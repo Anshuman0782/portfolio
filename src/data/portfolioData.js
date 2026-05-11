@@ -50,9 +50,9 @@ export const skills = [
     { name: "Machine Learning", level: 80 },
     { name: "Deep Learning ", level: 78 },
     { name: "MLOps", level: 80 },
-    { name: "LLM Integration ", level: 88 },
-    { name: "Prompt Engineering", level: 90 },
-    { name: "Fine-Tuning", level: 70 },
+    { name: "LLMs Integration ", level: 88 },
+    { name: "RAG", level: 90 },
+    { name: "Ai Agents", level: 70 },
     { name: "Vector Databases & Embeddings", level: 70 }
   ]
 },

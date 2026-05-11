@@ -360,8 +360,8 @@ export default function Skills() {
             {/* Stats row */}
             <div className="grid grid-cols-3 gap-3">
               {[
-                { value: '5+', label: 'Years Coding Exp.' },
-                { value: '25+', label: 'Technologies' },
+                { value: '4+', label: 'Years Coding Exp.' },
+                { value: '10+', label: 'Technologies' },
                 { value: '20+', label: 'Projects' },
               ].map((stat, i) => (
                 <motion.div
