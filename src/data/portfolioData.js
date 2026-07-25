@@ -159,6 +159,14 @@ tags: ["HTML", "CSS", "JavaScript", "Web Crypto API"],
 ]
 
 export const experience = [
+  {
+  company: "Andreal, Kolkata (On-site)",
+  role: "Full Stack Developer",
+  period: "2026 – Present",
+  description: "Developed and maintained 10+ full-stack web applications, including the EEPC India government client project, ensuring 99% uptime. Automated PDF-to-webpage conversion using Python, reducing turnaround time from 10 days to under 1 day (90% faster). Built end-to-end web solutions for 20+ clients, reducing average delivery time by 20%. Developed an LLM- and Python-powered automated content extraction system to fetch structured product data from e-commerce websites.",
+  tags: ["React", "Node.js", "Python", "MongoDB", "MySQL", "LLM", "Next.js"],
+},
+  
  {
   company: "Prodigy InfoTech",
   role: "Web Developer Intern",
