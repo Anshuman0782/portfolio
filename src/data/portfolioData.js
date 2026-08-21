@@ -1,0 +1,245 @@
+export const personalInfo = {
+  name: "Anshuman Sarkar",
+  roles: [
+    'Full Stack Developer',
+    ' AI & ML Engineer',
+  ],
+  tagline: "I build fast, beautiful, and scalable web experiences.",
+  bio: "I'm a full-stack developer with 5+ years of Coding experience crafting high-performance applications. I specialize in React ecosystems and Node.js backends, with a passion for clean architecture and delightful UX. Currently open to full-time roles and interesting freelance projects.",
+  location: "Kolkata, West Bengal, India",
+  email: "anshumansarkar700@gmail.com",
+  resumeUrl: "/resume.pdf", // Place your resume in /public folder
+  availability: "Open to opportunities",
+  avatarUrl: "/avatar.png",
+}
+
+export const socialLinks = [
+  { label: "GitHub", url: "https://github.com/Anshuman0782", icon: "github" },
+  { label: "LinkedIn", url: "https://www.linkedin.com/in/anshuman-sarkar-906994307/", icon: "linkedin" },
+  { label: "Twitter", url: "https://x.com/sarkar97711", icon: "twitter" },
+]
+
+export const skills = [
+  {
+  category: "Programming Languages",
+  items: [
+    { name: "C", level: 85 },
+    { name: "C++", level: 88 },
+    { name: "Java", level: 82 },
+    { name: "Python", level: 85 },
+    { name: "PHP", level: 75 },
+    { name: "SQL", level: 80 },
+    { name: "JavaScript", level: 90 }
+  ]
+},
+  {
+  category: "Web Technologies & Cloud",
+  items: [
+    { name: "React", level: 95 },
+    { name: "Node.js / Express", level: 88 },
+    { name: "MongoDB", level: 85 },
+    { name: "REST API", level: 85 },
+    { name: "Socket.IO", level: 80 },
+    { name: "AWS", level: 75 },
+    { name: "Render", level: 78 },
+  ]
+},
+{
+  category: "AI & ML (Generative AI)",
+  items: [
+    { name: "Machine Learning", level: 80 },
+    { name: "Deep Learning ", level: 78 },
+    { name: "MLOps", level: 80 },
+    { name: "LLMs Integration ", level: 88 },
+    { name: "RAG", level: 90 },
+    { name: "Ai Agents", level: 70 },
+    { name: "Vector Databases & Embeddings", level: 70 }
+  ]
+},
+{
+  category: "Tools",
+  items: [
+    { name: "Git / GitHub", level: 95 },
+    { name: "Docker", level: 75 },
+    { name: "Postman", level: 90 },
+    { name: "VS Code", level: 95 },
+    { name: "MongoDB Compass", level: 85 },
+    { name: "Firebase", level: 80 },
+    { name: "Linux / Shell", level: 80 }
+  ]
+}
+]
+
+export const techStack = [
+  "React", "Next.js",  "Node.js", "Python", "AI & ML", 
+  "MongoDB", "Express", "Docker", "AWS", "Tailwind", "Generative Ai", "LLMS"
+]
+
+// What I Do — used on the Home page services section
+export const services = [
+  {
+    icon: "layout",
+    title: "Full-Stack Web Apps",
+    desc: "End-to-end products with React / Next.js on the front and Node.js, Express & databases on the back — fast, responsive and production-ready.",
+    tags: ["React", "Next.js", "Node.js", "MongoDB"],
+  },
+  {
+    icon: "brain",
+    title: "AI & LLM Engineering",
+    desc: "Practical GenAI: RAG pipelines, AI agents, LLM integrations and vector search that turn language models into real product features.",
+    tags: ["LangChain", "RAG", "Agents", "Vector DB"],
+  },
+  {
+    icon: "zap",
+    title: "APIs & Automation",
+    desc: "REST APIs, real-time systems with Socket.IO, and Python automation that cuts manual work — like turning a 10-day task into under a day.",
+    tags: ["REST", "Socket.IO", "Python", "Automation"],
+  },
+  {
+    icon: "sparkles",
+    title: "UI / UX Engineering",
+    desc: "Pixel-perfect, accessible interfaces with delightful micro-interactions using Tailwind CSS and Framer Motion.",
+    tags: ["Tailwind", "Framer Motion", "Design", "A11y"],
+  },
+]
+
+export const projects = [
+  {
+  id: 1,
+  title: "RepoMind AI",
+  description:
+    "An Agentic AI platform that automates GitHub repository workflows like auto commits, bug detection, architecture analysis, code explanation, and intelligent development assistance for faster and smarter project management.",
+  tags: ["Langchain", "LangGraph", "LLMs", "RAG", "Vector DB"],
+  githubUrl: "https://github.com/Anshuman0782/RepoMind-AI",
+  featured: false,
+  category: "AI/ML",
+  gradient: "from-amber-500/20 to-yellow-500/20",
+  accent: "#F59E0B",
+  year: "2026",
+},
+  {
+
+    
+    id: 2,
+title: "Aalap — Real-Time Chat & Gaming Platform",
+description: "A real-time chat application with support for multiple interactive games and an admin dashboard. Features live messaging, game integration, user management, and real-time updates. Designed to handle scalable user interactions.",
+tags: ["React", "Node.js", "Socket.IO", "MongoDB", "Express"],
+    liveUrl: "https://aalap.vercel.app/",
+    githubUrl: "https://github.com/Anshuman0782/Aalap-Frontend",
+    featured: true,
+    category: "Full Stack",
+    gradient: "from-violet-500/20 to-cyan-500/20",
+    accent: "#8B5CF6",
+    year: "2025",
+  },
+  {
+    id: 3,
+    title: "Code2Music — Universal Compiler & Code-to-Music Converter",
+    description: "A universal compiler that converts code into music with an integrated code generator and cross-platform support.",
+    tags: ["React", "Node.js", "Express", "API"],
+    liveUrl: "https://code2-music.vercel.app/",
+    githubUrl: "https://github.com/Anshuman0782/Code2Music",
+    featured: true,
+    category: "Full Stack",
+    gradient: "from-emerald-500/20 to-teal-500/20",
+    accent: "#10B981",
+    year: "2025",
+  },
+  {
+    id: 4,
+title: "AutoPark IQ — AI-Powered Automatic Car Parking System",
+description: "An AI-based system using computer vision to detect parking spaces and assist automated parking.",
+tags: ["React", "Node.js", "Express", "MongoDB", "Python", "OpenCV", "CNN"],
+    liveUrl: "https://drive.google.com/drive/u/1/folders/1MscNXPt63ey16pDnM12VF10flUvZOMxK",
+    category: "AI/ML",
+    featured: true,
+    gradient: "from-orange-500/20 to-rose-500/20",
+    accent: "#F97316",
+    year: "2024",
+  },
+  {
+    id: 5,
+title: "Quantum Cryptanalysis Lab — RSA Attack Simulation",
+description: "A simulator demonstrating RSA cryptanalysis using quantum algorithms like Shor’s algorithm.",
+tags: ["React", "Node.js", "Express", "Python", "Qiskit", "API", "WebSockets"],
+    liveUrl: "https://quantumrsa.vercel.app/",
+    githubUrl: "https://github.com/Anshuman0782/Quantum-Shor-s-Algorithm-Frontend",
+    featured: false,
+    category: "Quantum",
+    gradient: "from-blue-500/20 to-indigo-500/20",
+    accent: "#3B82F6",
+    year: "2026",
+  },
+  {
+    id: 6,
+  title: "Secure File Locker — Password-Based Encryption Tool",
+description: "A browser-based tool to securely lock and unlock files using password-based encryption.",
+tags: ["HTML", "CSS", "JavaScript", "Web Crypto API"],
+    liveUrl: "https://filehider.netlify.app/",
+    githubUrl: "https://filehider.netlify.app/",
+    featured: false,
+    category: "Frontend",
+    gradient: "from-rose-500/20 to-pink-500/20",
+    accent: "#F43F5E",
+    year: "2023",
+  },
+  
+]
+
+export const experience = [
+  {
+  company: "Andreal, Kolkata (On-site)",
+  role: "Full Stack Developer",
+  period: "2026 – Present",
+  description: "Developed and maintained 10+ full-stack web applications, including the EEPC India government client project, ensuring 99% uptime. Automated PDF-to-webpage conversion using Python, reducing turnaround time from 10 days to under 1 day (90% faster). Built end-to-end web solutions for 20+ clients, reducing average delivery time by 20%. Developed an LLM- and Python-powered automated content extraction system to fetch structured product data from e-commerce websites.",
+  tags: ["React", "Node.js", "Python", "MongoDB", "MySQL", "LLM", "Next.js"],
+},
+  
+ {
+  company: "Prodigy InfoTech",
+  role: "Web Developer Intern",
+  period: "Sept 2024",
+  description: "Designed and implemented front-end and back-end features for 5+ web applications, collaborating with cross-functional teams and reducing future development time by 30%.",
+  tags: ["React", "Node.js", "Express", "MongoDB"],
+},
+  {
+  company: "SkillCraft Technology",
+  role: "Web Developer Intern",
+  period: "Aug 2024",
+  description: "Led project planning initiatives that streamlined workflows and improved team collaboration, successfully delivering 10 major projects on schedule and increasing team productivity by 25%.",
+  tags: ["React", "JavaScript", "Node.js", "Team Collaboration"],
+},
+ {
+  company: "ICDMAI Hackathon 2025",
+  role: "3rd Position Winner",
+  period: "Nov 2025",
+  description: "Secured 3rd position at ICDMAI Hackathon 2025 in Kolkata by developing data-driven strategies to prevent customer attrition for home security solutions using analytics and predictive insights.",
+  tags: ["Data Analytics", "Predictive Analysis", "Team Collaboration", "Problem Solving"],
+},
+  {
+  company: "TATA Group x Forage",
+  role: "GenAI Powered Data Analytics Virtual Experience Program",
+  period: "Apr 2026",
+  description: "Completed a virtual experience program focused on AI-driven data analytics, exploratory data analysis, predictive delinquency modeling, and business reporting for collections strategy optimization.",
+  tags: ["Generative AI", "Data Analytics", "Predictive Modeling", "Business Intelligence"],
+},
+]
+
+export const UG = [
+  {
+    school: "Asutosh College",
+    degree: "B.Sc. in Computer Science",
+    period: "2021 — 2024",
+    details: "Built a strong foundation in data structures, algorithms, DBMS and web development while shipping several full-stack side projects."
+  }
+]
+
+
+export const PG = [
+  {
+    school: "University Of Calcutta",
+    degree: "M.Sc. in Computer Science",
+    period: "2024 — 2026",
+    details: "Focused on Machine Learning, Deep Learning and Generative AI — applying LLMs, RAG and MLOps to real-world engineering problems."
+  }
+]
